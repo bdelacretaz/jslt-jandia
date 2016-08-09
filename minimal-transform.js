@@ -62,18 +62,7 @@ var transform = { $: [
 
 console.log(JSON.stringify(data.through(transform), null, 2));
 
-/*
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-*/
+/* TODO the JSLT code should be factored out in its own module */
 function JSLT() {
 
 function dataset(obj) {

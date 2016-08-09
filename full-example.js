@@ -447,18 +447,7 @@ var xslt3_0example14_4 = Per('<table border="1">\r\n\
 
 console.log("To", xslt3_0example14_4);
 
-/*
- .
- .
- .
- .
- .
- .
- .
- .
- .
- . 
- */
+/* TODO the JSLT code should be factored out in its own module */
 function Per() {
   var subject = [ ].slice.call(arguments)[0],
       isArray = function(obj) {
